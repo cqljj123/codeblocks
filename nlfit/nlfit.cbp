@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="nlfit" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="../../codeblocksout/bin/Release/nlfit" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-std=c++11" />
+				</Compiler>
+				<Linker>
+					<Add option="-static" />
+					<Add option="-liomp5md" />
+					<Add option="-ldivdll" />
+					<Add directory="E:/codeblocksource/nlfit/" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add option="-finput-charset=GBK" />
+		</Compiler>
+		<Unit filename="mymatrix.h" />
+		<Unit filename="mymicro.cpp" />
+		<Unit filename="mymicro.h" />
+		<Unit filename="nlfit.cpp" />
+		<Unit filename="nlfit.h" />
+		<Unit filename="objfunc.cpp" />
+		<Unit filename="objfunc.h" />
+		<Unit filename="stdafx.cpp" />
+		<Unit filename="stdafx.h" />
+		<Unit filename="testnls.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,11 @@
+flag
+-finput-charset=GBK
+
+macro
+
+
+__GNUWIN32__
+__WXMSW__
+_UNICODE
+wxUSE_UNICODE
+WX_PRECOMP

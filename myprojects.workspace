@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_workspace_file>
+	<Workspace title="myprojects">
+		<Project filename="cam_gui/cam_gui.cbp" />
+		<Project filename="sqlite3/sqlite3.cbp" />
+		<Project filename="testdebug/testdebug.cbp" />
+		<Project filename="nlfit/nlfit.cbp" />
+		<Project filename="calc/calc.cbp" />
+		<Project filename="wxmyevent/wxmyevent.cbp" />
+	</Workspace>
+</CodeBlocks_workspace_file>
